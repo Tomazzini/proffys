@@ -1,0 +1,26 @@
+import Knex from 'knex';
+
+export async function up(knex: Knex) {
+    return knex.schema.createTable('connections', table => {
+        table.increments('id').primary();
+
+        // quando entrar em contato com o professor
+        //relacionamento com a tabela users
+        table.integer('user_id')
+            .notNullable()
+            .references('id')
+            .inTable('users')
+            .onUpdate('CASCADE')
+            .onDelete('CASCADE');
+
+        // salvar a data em que foi tentado entrar em contato com o professor
+        table.timestamp('created_at')
+            .defaultTo(knex.raw('CURRENT_TIMESTAMP'))
+            .notNullable();    
+    });
+
+}
+
+export async function down(knex: Knex) {
+    return knex.schema.dropTable('connections');
+}
