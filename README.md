@@ -3,6 +3,9 @@
 
 # Configuração de ambiente
 
+### Clonar o projeto
+
+
 ### Run Api.
 Go to server folder
 $ cd proffy/server
