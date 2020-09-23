@@ -9,17 +9,15 @@ https://github.com/Tomazzini/proffys.git
 ### Run Api.
 cd proffy/server
 
-Install Dependencies.
-$ yarn install
+yarn install.
 
-Run Aplication
-$ yarn start
+yarn start
 
-knex create migration
-$ yarn knex:migrate
+knex create migration.
+yarn knex:migrate
 
-knex create rollback
-$ yarn knex:rollback
+knex create rollback.
+yarn knex:rollback
 
 ### Run Projeto Web.
 Go to web folder.
