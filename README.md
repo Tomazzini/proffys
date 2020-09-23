@@ -34,13 +34,13 @@ yarn start
 
 ### Run Projeto Mobile
 Ir para a pasta mobile<br>
-$ cd proffy/mobile
+cd proffy/mobile
 
-Install Dependencies
-$ yarn install
+Instalando as dependências<br>
+yarn install
 
-Run Aplication
-$ yarn start
+Rodar a aplicação<br>
+yarn start
 
 ### Tecnologias
 Typescript.
