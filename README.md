@@ -7,30 +7,33 @@
 https://github.com/Tomazzini/proffys.git
 
 ### Run Api.
+Ir para a pasta server<br>
 cd proffy/server
 
+Instalando as dependências<br>
 yarn install.
 
+Rodar a aplicação<br>
 yarn start
 
-knex create migration.
+knex create migration<br>
 yarn knex:migrate
 
-knex create rollback.
+knex create rollback<br>
 yarn knex:rollback
 
 ### Run Projeto Web.
-Go to web folder.
-$ cd proffy/web.
+Ir para a pasta frontend<br>
+cd proffy/frontend.
 
-Install Dependencies.
-$ yarn install.
+Instalando as dependências<br>
+yarn install.
 
-Run Aplication
-$ yarn start
+Rodar a aplicação<br>
+yarn start
 
 ### Run Projeto Mobile
-Go to mobile folder
+Ir para a pasta mobile<br>
 $ cd proffy/mobile
 
 Install Dependencies
