@@ -23,8 +23,8 @@ knex create rollback<br>
 yarn knex:rollback
 
 ### Run Projeto Web.
-Ir para a pasta frontend<br>
-cd proffy/frontend.
+Ir para a pasta front<br>
+cd proffy/front
 
 Instalando as dependências<br>
 yarn install.
