@@ -7,10 +7,10 @@
 https://github.com/Tomazzini/proffys.git
 
 ### Run Api.
-Go to server folder
+Go to server folder.
 $ cd proffy/server
 
-Install Dependencies
+Install Dependencies.
 $ yarn install
 
 Run Aplication
