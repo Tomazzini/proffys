@@ -3,44 +3,43 @@
 
 # Configuração de ambiente
 
-## Run Projeto Web
-# Go to web folder
-$ cd proffy/web
-
-# Install Dependencies
-$ yarn install
-
-# Run Aplication
-$ yarn start
-
-## Run Api
-# Go to server folder
+### Run Api.
+Go to server folder
 $ cd proffy/server
 
-# Install Dependencies
+Install Dependencies
 $ yarn install
 
-# Run Aplication
+Run Aplication
 $ yarn start
 
-#knex create migration
+knex create migration
 $ yarn knex:migrate
 
-#knex create rollback
+knex create rollback
 $ yarn knex:rollback
 
-## Run Projeto Mobile
-# Go to mobile folder
-$ cd proffy/mobile
+### Run Projeto Web.
+Go to web folder.
+$ cd proffy/web.
 
-# Install Dependencies
-$ yarn install
+Install Dependencies.
+$ yarn install.
 
-# Run Aplication
+Run Aplication
 $ yarn start
 
+### Run Projeto Mobile
+Go to mobile folder
+$ cd proffy/mobile
 
-## Tecnologias
+Install Dependencies
+$ yarn install
+
+Run Aplication
+$ yarn start
+
+### Tecnologias
 Typescript.
 React Native.
 Expo.
